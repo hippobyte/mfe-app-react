@@ -38,6 +38,7 @@ export default function Root(props) {
         <h1>I am a <strong>React</strong> micro front-end (MFE) application.</h1>
         <hr className="py-2" />
         <p>I don't do much, but if you <ClickMe onClick={() => handleSmile()} /> you will make me smile.</p>
+        
         <Box>
           {[...Array(smileCount)].map((x, i) => <PageTitle key={i}>😊</PageTitle>)}
         </Box>
